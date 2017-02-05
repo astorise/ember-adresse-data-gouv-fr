@@ -1,7 +1,7 @@
 {
   "name": "ember-adresse-data-gouv-fr",
-  "version": "0.1.0",
-  "description": "Ember data adapter & serializer for adresse.data.gpuv.fr.",
+  "version": "0.1.1",
+  "description": "Ember data adapter & serializer for adresse.data.gouv.fr.",
   "keywords": [
     "ember-addon"
   ],

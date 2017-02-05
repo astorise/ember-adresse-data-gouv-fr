@@ -1,6 +1,6 @@
 # ember-adresse-data-gouv-fr
 
-Ember data adapter & serializer for adresse.data.gpuv.fr.
+Ember data adapter & serializer for adresse.data.gouv.fr.
 
 ## Installation
 

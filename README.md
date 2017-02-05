@@ -1,6 +1,6 @@
 # ember-adresse-data-gouv-fr
 
-This README outlines the details of collaborating on this Ember addon.
+Ember data adapter & serializer for adresse.data.gpuv.fr.
 
 ## Installation
 

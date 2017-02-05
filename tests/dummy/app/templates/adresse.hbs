@@ -1,0 +1,7 @@
+<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    {{#link-to 'adresse' adresse}}
+    <span itemprop="streetAddress">{{model.name}} </span>
+    <span itemprop="postalCode">{{model.postcode}} </span>
+    <span itemprop="addressLocality">{{model.city}} </span>
+    {{/link-to}}
+</div>

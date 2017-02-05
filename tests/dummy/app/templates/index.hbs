@@ -1,0 +1,12 @@
+ toto
+
+ {{#each model as |adresse|}}
+<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    {{#link-to 'adresse' adresse}}
+    <span itemprop="streetAddress">{{adresse.name}} </span>
+    <span itemprop="postalCode">{{adresse.postcode}} </span>
+    <span itemprop="addressLocality">{{adresse.city}} </span>,
+    {{/link-to}}
+</div>
+
+{{/each}}

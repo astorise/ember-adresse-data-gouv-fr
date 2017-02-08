@@ -1,6 +1,10 @@
 # ember-adresse-data-gouv-fr
+[![Build Status](https://travis-ci.org/astorise/ember-adresse-data-gouv-fr.svg?branch=master)](https://travis-ci.org/astorise/ember-adresse-data-gouv-fr)
 
 Ember data adapter & serializer for adresse.data.gouv.fr.
+
+## Installation addon
+* `ember install ember-adresse-data-gouv-fr`
 
 ## Installation
 

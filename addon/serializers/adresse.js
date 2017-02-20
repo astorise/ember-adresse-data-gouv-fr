@@ -39,7 +39,7 @@ export default DS.JSONAPISerializer.extend({
     _deserialiseAdresse: function _deserialiseAdress(adresseHash) {
         return {
             "type": "adresse",
-            "id": adresseHash.geometry.coordinates.toString(),
+            "id": btoa(adresseHash.geometry.coordinates[0]+','+adresseHash.geometry.coordinates[1]),
             "attributes": {
                 "housenumber": adresseHash.properties.housenumber,
                 "label": adresseHash.properties.label,

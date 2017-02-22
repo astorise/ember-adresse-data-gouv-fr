@@ -47,8 +47,8 @@ export default DS.JSONAPISerializer.extend({
                 "citycode": adresseHash.properties.citycode,
                 "city": adresseHash.properties.city,
                 "name": adresseHash.properties.name,
-                "lat": adresseHash.geometry.coodinates[0],
-                "lon": adresseHash.geometry.coodinates[1]
+                "lat": adresseHash.geometry.coordinates[0],
+                "lon": adresseHash.geometry.coordinates[1]
             }
         };
     }

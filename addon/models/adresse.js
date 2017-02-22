@@ -7,5 +7,6 @@ export default DS.Model.extend({
   citycode: DS.attr('string'),
   city: DS.attr('string'),
   name: DS.attr('string'),
-  coordinates: DS.attr('string')
+  lat: DS.attr('number'),
+  lon: DS.attr('number')
 });

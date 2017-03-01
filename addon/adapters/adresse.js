@@ -17,9 +17,9 @@ export default DS.JSONAPIAdapter.extend({
 
 urlForFindRecord(id, modelName, snapshot){
     let coordonate = atob(id).split(',');
-    let lon= coordonate[0];
+    let lng= coordonate[0];
     let lat= coordonate[1];
-     return `${this.host}reverse/?lon=${lon}&lat=${lat}&type=housenumber`;
+     return `${this.host}reverse/?lon=${lng}&lat=${lat}&type=housenumber`;
 }
 
 });

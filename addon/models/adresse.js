@@ -8,5 +8,5 @@ export default DS.Model.extend({
   city: DS.attr('string'),
   name: DS.attr('string'),
   lat: DS.attr('number'),
-  lon: DS.attr('number')
+  lng: DS.attr('number')
 });
